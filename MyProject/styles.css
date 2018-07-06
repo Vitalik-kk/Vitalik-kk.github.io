@@ -1,0 +1,154 @@
+
+.container {
+    width: 1170px;
+    margin: 2px auto;
+}
+
+.telefon {
+    width: 345px;
+    padding: 5px;
+    margin: -40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    opacity: 0.8;               /*делаем прозрачность*/
+}
+
+ul > li > a  {                      /*по последовательности тегов делаем фон у кнопок меню*/
+    background: #919090;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.nav-link:hover {               /*по псевдоклассу и по наведению курсора меняем цвет фона ссылок*/
+    background: #f7f4f4;
+}
+
+.nav-link {
+    color: rgb(12, 11, 11);
+    font-size: 20px;
+}
+
+.table {
+    border: 3px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3px;
+}
+
+th,
+tr,
+td {
+    border: 1px solid grey;
+}
+
+.moldcell {
+    font-size: 20px;
+}
+
+div > p > a {
+    background-color: #dfdfdf;
+}
+
+.header {
+    background: url("./images/iphone-cracked.jpg") no-repeat center top;
+    height: 550px;
+}
+
+.samsung {
+    height: 500px;
+    width: 500px;
+   /* opacity: 0.7;                   /*ЗАТУХАНИЕ - картинка прозрачная */
+}
+
+.samsung:hover {
+   /* transform: rotateZ(20deg);      /*при наведении на картинку происходит вращение*/
+    border-radius: 50%;             /*при наведении на картинку происходит трасморация в круг*/
+   /* opacity: 1;                     /*ЗАТУХАНИЕ - при наведении на картинку она проявляется */
+   /* transform: scale(1.1);          /*при наведении на картинку, увеличиваем её когда scale БОЛЬШЕ 1 */
+}
+
+.samsung-table {
+    border: 3px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3px;
+    width: 600px;
+    height: 350px;
+    float: right;
+}
+
+#predfooter {
+    height: 700px;
+}
+
+* {box-sizing: border-box;}
+.badge-border {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 25px auto;
+  background: #D96B52;
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.badge-border:before,
+.badge-border:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background: #D96B52;
+  border-radius: 12px;
+}
+.badge-border:before {transform: rotate(30deg);}
+.badge-border:after {transform: rotate(60deg);}
+.badge-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 160px;
+  height: 160px;
+  margin-left: -80px;
+  margin-top: -80px;
+  background: #F3BD5B;
+  border: 5px solid #FFF3D8;
+  border-radius: 50%;
+  text-align: center;
+}
+.badge-content h2 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 140px;
+  margin: 0;
+  height: 50%;
+  line-height: 100px;
+  background: #FFF3D8;
+  border-radius: 140px 140px 0 0;
+  font-size: 40px;
+  color: #A66844;
+}
+.badge-content h3 {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: 140px;
+  margin: 0;
+  line-height: 75px;
+  color: #FFF3D8;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
